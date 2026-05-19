@@ -1,0 +1,7 @@
+Add your resume PDF here and rename it to:
+
+  resume.pdf
+
+The site resume button downloads /resume.pdf from this public folder.
+
+Recommended: export a one-page PDF from Word/Google Docs and name it resume.pdf
