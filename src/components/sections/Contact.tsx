@@ -1,5 +1,5 @@
-﻿import { motion } from "framer-motion";
-import { Mail, Phone, Send } from "lucide-react";
+import { motion } from "framer-motion";
+import { Mail, Send } from "lucide-react";
 import { ResumeButton } from "../ResumeButton";
 import { site, sections } from "../../data/portfolio";
 
@@ -30,13 +30,6 @@ export function Contact() {
               >
                 <Mail className="size-4" />
                 {site.email}
-              </a>
-              <a
-                href={site.phoneHref}
-                className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground/90 transition hover:border-accent/40 hover:text-accent"
-              >
-                <Phone className="size-4" />
-                {site.phone}
               </a>
               {site.socials.map((s) => (
                 <a

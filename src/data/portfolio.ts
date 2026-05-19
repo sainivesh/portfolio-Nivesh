@@ -8,8 +8,6 @@ export const site = {
   location: "Hyderabad, India · 2+ years in analytics",
   availability: "Open to remote & hybrid opportunities",
   email: "bagavathamnivesh.work@gmail.com",
-  phone: "+91 8919141230",
-  phoneHref: "tel:+918919141230",
 
   hero: {
     lineBefore: "Turning",
