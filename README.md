@@ -64,6 +64,23 @@ Typography: **Syne** (display) and **IBM Plex Mono** (technical accents), loaded
 - Add **MDX** or markdown-driven case studies.  
 - Wire **analytics** and **Open Graph** images for sharing.
 
+## Git & hosting
+
+This project is set up for Git. To push to GitHub:
+
+1. Create a new repository at [github.com/new](https://github.com/new) (name e.g. `portfolio-nivesh`, **no** README/license — empty repo).
+2. In this folder, run (replace `YOUR_USERNAME` with your GitHub username):
+
+```powershell
+cd "C:\Users\nivesh.bagavatham\OneDrive - OTSI\Desktop\Portfolio-Nivesh"
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-nivesh.git
+git push -u origin main
+```
+
+**Deploy:** Connect the repo to [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), or GitHub Pages. Build command: `npm run build`, output folder: `dist`.
+
+Edit site copy in `src/data/portfolio.ts`, then commit and push — your host will redeploy automatically if CI is enabled.
+
 ## License
 
 MIT — use and adapt freely for your own portfolio.
