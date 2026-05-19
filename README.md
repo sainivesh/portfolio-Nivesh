@@ -4,9 +4,7 @@ A modern, Web3-flavored professional portfolio built with **Vite**, **React**, *
 
 ## Prerequisites
 
-Portable Node (no admin install) at:
-
-`C:\Users\nivesh.bagavatham\OneDrive - OTSI\Desktop\node-v24.15.0-win-x64`
+Portable Node :
 
 ## Run locally (recommended — no PATH or PowerShell policy needed)
 
@@ -29,9 +27,6 @@ npm run dev
 One-liner without PATH (paste in any terminal):
 
 ```powershell
-& "C:\Users\nivesh.bagavatham\OneDrive - OTSI\Desktop\node-v24.15.0-win-x64\npm.cmd" run dev
-```
-
 ## Build for production
 
 ```bash
@@ -68,12 +63,11 @@ Typography: **Syne** (display) and **IBM Plex Mono** (technical accents), loaded
 
 This project is set up for Git. To push to GitHub:
 
-1. Create a new repository at [github.com/new](https://github.com/new) (name e.g. `portfolio-nivesh`, **no** README/license — empty repo).
+1. Create a new repository at [github.com/new](https://github.com/new), **no** README/license — empty repo).
 2. In this folder, run (replace `YOUR_USERNAME` with your GitHub username):
 
 ```powershell
-cd "C:\Users\nivesh.bagavatham\OneDrive - OTSI\Desktop\Portfolio-Nivesh"
-git remote add origin https://github.com/YOUR_USERNAME/portfolio-nivesh.git
+
 git push -u origin main
 ```
 
